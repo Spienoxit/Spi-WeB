@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spi-WeB</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #ecf0f1;
+      text-align: center;
+    }
+
+    header {
+      background-color: #00FFFF;
+      padding: 10px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h {
+      color: blue;
+    }
+
+    h1 {
+      color: red;
+      margin: 0;
+      flex-grow: 1;
+    }
+
+    footer {
+      background-color: #00FA9A;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    a {
+      color: red;
+      font-weight: bold;
+    }
+
+    .logo img {
+      background-color: black;
+      width: 40px;
+      cursor: pointer;
+      border-radius: 50% 50%;
+      margin-left: 20px;
+    }
+
+    .credits {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .spienoxite img {
+      width: 60px;
+      cursor: pointer;
+      border-radius: 50px 10%;
+      margin-right: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px 20px;
+      margin-bottom: 150px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .picture-container {
+      max-width: 800px;
+      margin: 50px 20px;
+      margin-bottom: 150px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .picture {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo" onclick="goToWebAbout()">
+      <img src="spi-web-logo.png" alt="spi-logo">
+    </div>
+    <h1>Spi-WeB</h1>
+    <div class="spienoxite" onclick="goToSpiEnoxiteAbout()">
+      <img src="spi-enoxite-(v0.4)-dp.png" alt="spienoxite-logo">
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="title">Granny Chapter 2</div>
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/vPUDnPfkNeM?si=ymfgXZciNDdMH6wn" frameborder="0"
+      allowfullscreen></iframe>
+    <div class="description">🥳akhirkar mane easy mode may granny ko select karky iskap karliy please like 👍 and subscribe
+      kardigiyg!</div>
+  </div>
+  
+  <div class="picture-container">
+    <div class="title">Picture</div>
+    <a href="https://example.com">
+      <img class="picture" src="path/to/your/image.jpg" alt="Nathing Picture">
+    </a>
+    <div class="description">Nathing</div>
+  </div>
+
+  <div class="container">
+    <div class="title">Nathing</div>
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/your_video_id_2" frameborder="0"
+      allowfullscreen></iframe>
+    <div class="description">Nathing</div>
+  </div>
+
+  <div class="picture-container">
+    <div class="title">Picture</div>
+    <a href="https://example.com">
+      <img class="picture" src="path/to/your/image.jpg" alt="Nathing Picture">
+    </a>
+    <div class="description">Nathing</div>
+  </div>
+
+  <footer>
+    <div class="credits">
+      <h>© A Website By </h><a href="https://youtube.com/@Spi_Enoxite">Spi Enoxite</a>
+    </div>
+  </footer>
+
+  <script>
+    function goToWebAbout() {
+      window.location.href = 'https://t.me/spi_web';
+    }
+
+    function goToSpiEnoxiteAbout() {
+      window.location.href = 'https://instagram.com/spi__enoxite';
+    }
+  </script>
+
+</body>
+
+</html>
